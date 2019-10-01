@@ -9,7 +9,7 @@
     Function imagem(i)
         Select Case i
             Case 0
-                Return My.Resources.1.
+                Return My.Resources.1.kkk
             Case 1
                 Return My.Resources.2.
             Case 2
