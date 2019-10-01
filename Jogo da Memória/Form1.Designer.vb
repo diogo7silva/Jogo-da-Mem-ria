@@ -37,6 +37,7 @@ Partial Class Form1
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         PictureBox5 = New System.Windows.Forms.PictureBox()
+        CType(PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -44,12 +45,21 @@ Partial Class Form1
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'PictureBox5
+        '
+        PictureBox5.Image = Global.Jogo_da_Memória.My.Resources.Resources._3_
+        PictureBox5.Location = New System.Drawing.Point(176, 358)
+        PictureBox5.Name = "PictureBox5"
+        PictureBox5.Size = New System.Drawing.Size(128, 128)
+        PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        PictureBox5.TabIndex = 13
+        PictureBox5.TabStop = False
         '
         'Label1
         '
@@ -141,16 +151,6 @@ Partial Class Form1
         Me.PictureBox6.TabIndex = 14
         Me.PictureBox6.TabStop = False
         '
-        'PictureBox5
-        '
-        PictureBox5.Image = Global.Jogo_da_Memória.My.Resources.Resources._3_
-        PictureBox5.Location = New System.Drawing.Point(176, 358)
-        PictureBox5.Name = "PictureBox5"
-        PictureBox5.Size = New System.Drawing.Size(128, 128)
-        PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        PictureBox5.TabIndex = 13
-        PictureBox5.TabStop = False
-        '
         'PictureBox4
         '
         Me.PictureBox4.Image = Global.Jogo_da_Memória.My.Resources.Resources._3_
@@ -196,7 +196,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(633, 589)
+        Me.ClientSize = New System.Drawing.Size(656, 589)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox15)
@@ -213,6 +213,7 @@ Partial Class Form1
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "Form1"
         Me.Text = "Form1"
+        CType(PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
@@ -220,7 +221,6 @@ Partial Class Form1
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
