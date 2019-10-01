@@ -85,11 +85,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
     </Compile>
-    <Compile Include="My Project\Resources.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="My Project\Settings.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -102,7 +97,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -120,13 +114,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\1..png" />
+    <None Include="Resources\piper.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\2..jpg" />
+    <None Include="Resources\corvo.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\3..png" />
+    <None Include="Resources\leon.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\4..jpg" />
@@ -148,6 +142,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\10..jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagem.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
